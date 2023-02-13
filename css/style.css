@@ -20,92 +20,157 @@
 }
 
 /* DEBUG */
-
 /* debug for header*/
 
 #app-header {
     height: 80px;
-    background-color: red;
     max-width: 100%;
+    
 }
 
 /* #debug for header */
 
 /*  debug for main */
 .top-main {
-    height: 550px;
+    height: 650px;
     max-width: 100%;
     background-color: var(--main-secondary);
+}
+
+.container-inside-top-header {
+    max-width: 70%;
+    margin: auto;
 }
 
 .container-w100 {
     max-width: 100%;
     min-height: 400px;
-    background-color: #61082b;
+
 }
 
 .container-small {
     max-width: 100%;
     min-height: 200px;
-    background-color: var(--main-primary);
+    background-color: var(--main-secondary);
+
 }
 
 .container-inside {
     max-width: 50%;
     min-height: 200px;
-    background-color: var(--light-green);
-}
 
+}
 
 .container {
     max-width: 50%;
     min-height: 800px;
-    background-color: #61082b;
+    margin-top: 150px;
 }
 
 #enterprise {
     height: 250px;
     max-width: 50%;
-    background-color: var(--light-blue);
+    margin-top: 10rem;
 }
 
 .join-dropbox {
     height: 500px;
     max-width: 50%;
-    background-color: #0162ff;
+
 }
 
 .quest {
     max-width: 50%;
     height: 500px;
-    background-color: #d5001f;
+
 }
 
 /*  #debug for main */
-/*  debug for footer */
-
-footer{
-    background-color: #000000;
-}
-
-
-/*  #debug for footer */
 /* #DEBUG */
 
-
-
 /* UTILITY*/
-
-.flex {
-    display: flex;
-}
-
-.justify {
-    justify-content: center;
-}
 
 .white-item {
     color: white;
 }
 
+.flex {
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+
+.blue-button {
+    background-color: #0d2481;
+    color: var(--light);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.blue-button-big {
+    background-color: #0d2481;
+    color: var(--light);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem;
+
+}
+
+.height {
+    height: 500px;
+}
+
+.padding {
+    padding: 2rem;
+}
+
 /* #UTILITY */
+
+/* region header  */
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 5;
+
+}
+
+
+.jumbo-img {
+    height: 650px;
+    width: 700px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.buisness-plan{
+    display:flex;
+
+}
+
+.column-4{
+    border: solid 1px lightgrey;
+    width:calc(3 x 12);
+    margin: auto;
+    min-height: 450px;
+}
+.border{
+    border:solid 1px lightgrey
+}
