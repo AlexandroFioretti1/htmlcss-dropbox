@@ -6,5 +6,50 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    
+    --light: #e8e9ea;
+    --bordeau: #61082b;
+    --light-blue: #0093ce;
+    --main-secondary: #b4d0e7;
+    --light-green: #a2d39b;
+    --light-red: #ff1c1c;
+    --dark-red: #d5001f;
+    --dark: #000000;
+    --main-primary: #0162ff;
+    --dark-: #0d2481;
+    --yellow: #ffd830;
 }
+
+/* DEBUG */
+
+#app-header {
+    height: 80px;
+    background-color: red;
+    max-width: 100%;
+}
+
+.top-main {
+    height: 550px;
+    max-width: 100%;
+    background-color: var(--main-secondary);
+}
+
+
+.container {
+    max-width: 50%;
+    min-height: 800px;
+    background-color: #61082b;
+}
+
+/* #DEBUG */
+
+/* UTILITY*/
+
+.flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+/* #UTILITY */
