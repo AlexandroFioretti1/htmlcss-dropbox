@@ -21,6 +21,7 @@
 
 /* DEBUG */
 
+/* debug for header*/
 
 #app-header {
     height: 80px;
@@ -28,10 +29,31 @@
     max-width: 100%;
 }
 
+/* #debug for header */
+
+/*  debug for main */
 .top-main {
     height: 550px;
     max-width: 100%;
     background-color: var(--main-secondary);
+}
+
+.container-w100 {
+    max-width: 100%;
+    min-height: 400px;
+    background-color: #61082b;
+}
+
+.container-small {
+    max-width: 100%;
+    min-height: 200px;
+    background-color: var(--main-primary);
+}
+
+.container-inside {
+    max-width: 50%;
+    min-height: 200px;
+    background-color: var(--light-green);
 }
 
 
@@ -41,7 +63,36 @@
     background-color: #61082b;
 }
 
+#enterprise {
+    height: 250px;
+    max-width: 50%;
+    background-color: var(--light-blue);
+}
+
+.join-dropbox {
+    height: 500px;
+    max-width: 50%;
+    background-color: #0162ff;
+}
+
+.quest {
+    max-width: 50%;
+    height: 500px;
+    background-color: #d5001f;
+}
+
+/*  #debug for main */
+/*  debug for footer */
+
+footer{
+    background-color: #000000;
+}
+
+
+/*  #debug for footer */
 /* #DEBUG */
+
+
 
 /* UTILITY*/
 
@@ -51,6 +102,10 @@
 
 .justify {
     justify-content: center;
+}
+
+.white-item {
+    color: white;
 }
 
 /* #UTILITY */
