@@ -19,77 +19,56 @@
     --yellow: #ffd830;
 }
 
-/* DEBUG */
-/* debug for header*/
+ul {
+    text-decoration: none;
+}
 
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+}
+
+ /* region header */
 #app-header {
     height: 80px;
     max-width: 100%;
-    
 }
 
-/* #debug for header */
-
-/*  debug for main */
-.top-main {
-    height: 650px;
-    max-width: 100%;
-    background-color: var(--main-secondary);
-}
-
-.container-inside-top-header {
-    max-width: 70%;
-    margin: auto;
-}
-
-.container-w100 {
-    max-width: 100%;
-    min-height: 400px;
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 5;
 
 }
+/* #region header */
 
-.container-small {
-    max-width: 100%;
-    min-height: 200px;
-    background-color: var(--main-secondary);
-
-}
-
-.container-inside {
-    max-width: 50%;
-    min-height: 200px;
-
-}
-
-.container {
-    max-width: 50%;
-    min-height: 800px;
-    margin-top: 150px;
-}
-
-#enterprise {
-    height: 250px;
-    max-width: 50%;
-    margin-top: 10rem;
-}
-
-.join-dropbox {
-    height: 500px;
-    max-width: 50%;
-
-}
-
-.quest {
-    max-width: 50%;
-    height: 500px;
-
-}
-
-/*  #debug for main */
-/* #DEBUG */
 
 /* UTILITY*/
+.margin-l{
+    margin-left: 9rem;
+}
 
+.input{
+    margin-left: 9rem;
+}
+
+.jumbo-img {
+    height: 650px;
+    width: 700px;
+}
+
+.border {
+    border-bottom: 1px solid var(--main-secondary);
+} 
 .white-item {
     color: white;
 }
@@ -97,8 +76,21 @@
 .flex {
     display: flex;
 }
-.justify-content{
+
+.justify-content {
     justify-content: center;
+}
+
+.height {
+    height: 500px;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+.row-4{
+   width: calc(3 x 90%);
 }
 
 .blue-button {
@@ -115,62 +107,99 @@
     border: none;
     font-size: 1rem;
     padding: 0.4rem;
-
 }
 
-.height {
-    height: 500px;
-}
-
-.padding {
-    padding: 2rem;
+.blue-big-b {
+    background-color: #0d2481;
+    color: var(--light);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem;
+    width: 14rem;
 }
 
 /* #UTILITY */
+ 
+
+
+/*  debug for main */
+.top-main {
+    height: 700px;
+    max-width: 70%;
+    background-color: var(--main-secondary);
+    margin: auto;
+    
+}
+
+.container-inside-top-main {
+    max-width: 70%;
+    margin: auto;
+}
+
+.container-w100 {
+    max-width: 100%;
+    min-height: 400px;
+
+}
+
+.container-small {
+    max-width: 100%;
+    min-height: 200px;
+    background-color: var(--main-secondary);
+    margin: auto;
+}
+
+.container-inside {
+    max-width: 70%;
+    min-height: 200px;
+    margin: auto;
+}
+
+.container {
+    max-width: 70%;
+    min-height: 800px;
+    margin-top: 150px;
+    padding-top: 15rem;
+    margin: auto;
+}
+
+#enterprise {
+    height: 250px;
+    max-width: 70%;
+    margin-top: 10rem;
+    display: flex;
+    margin: auto; 
+    border: solid 1px var(--main-secondary);
+}
+
+.join-dropbox {
+    height: 500px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.quest {
+    max-width: 70%;
+    height: 500px;
+    margin: auto;
+
+}
+
+/*  #debug for main */
+
 
 /* region header  */
-.header-container {
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--light);
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 80px;
-    z-index: 5;
-
-}
 
 
-.jumbo-img {
-    height: 650px;
-    width: 700px;
-}
 
-ul {
-    text-decoration: none;
-}
 
-a {
-    text-decoration: none;
-}
-
-footer {
-    background-color: #000000;
-}
-
-.buisness-plan{
-    display:flex;
-
-}
-
-.column-4{
+.row-4{
     border: solid 1px lightgrey;
-    width:calc(3 x 12);
+    width: 300px;
     margin: auto;
     min-height: 450px;
+    margin-right: 6rem;
+    margin-top: 5rem;
+
 }
-.border{
-    border:solid 1px lightgrey
-}
+
