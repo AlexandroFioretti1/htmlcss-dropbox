@@ -19,6 +19,44 @@
     --yellow: #ffd830;
 }
 
+.bg-green{
+    background-color: var(--light-green);
+}
+.bg-brown{
+    background-color: var(--bordeau);
+}
+.bg-cyan{
+    background-color: var(--main-primary);
+}
+.bg-red{
+    background-color: var(--light-red);
+}
+
+
+
+.bg-s-red{
+    background-color: var(--dark-red);
+}
+.bg-light-cyan{
+    background-color: var(--light-blue);
+}
+.bg-blue{
+    background-color: var(--dark-);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
 h1 {
     font-size: 3.5rem;
 }
@@ -149,9 +187,10 @@ footer {
     flex-wrap: wrap;
 }
 
-.img-100w{
+.img-100w {
     width: 100%;
 }
+
 .container-card-business {
     width: 33%;
 
@@ -253,9 +292,10 @@ footer {
     margin: auto;
     width: 65%;
 }
-.container-operation{
+
+.container-operation {
     max-width: 65%;
-   
+
     margin: auto;
 }
 
@@ -266,6 +306,7 @@ footer {
     padding-top: 15rem;
     margin: auto;
 }
+
 .container-company {
     max-width: 100%;
     margin: auto;
