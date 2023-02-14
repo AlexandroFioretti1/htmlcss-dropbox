@@ -19,6 +19,9 @@
     --yellow: #ffd830;
 }
 
+h1{
+    font-size: 3.5rem;
+}
 ul {
     text-decoration: none;
 }
@@ -53,6 +56,16 @@ footer {
 
 
 /* UTILITY*/
+
+.display-inline{
+    display: inline;
+}
+.justify-footer{
+    justify-content: space-around;
+}
+.flex {
+    display: flex;
+}
 .margin-l{
     margin-left: 9rem;
 }
@@ -60,26 +73,26 @@ footer {
 .input{
     margin-left: 9rem;
 }
+.justify-content {
+    justify-content: center;
+}
 
-.jumbo-img {
-    height: 650px;
-    width: 700px;
+.column-explain{
+    flex-flow: column nowrap;
+    gap: 2.5rem;
 }
 
 .border {
     border-bottom: 1px solid var(--main-secondary);
 } 
+.title{
+    text-align: center;
+    padding: 3rem 0;
+    }
 .white-item {
     color: white;
 }
 
-.flex {
-    display: flex;
-}
-
-.justify-content {
-    justify-content: center;
-}
 
 .height {
     height: 500px;
@@ -94,23 +107,26 @@ footer {
 }
 
 .blue-button {
-    background-color: #0d2481;
+    background-color: var(--light-blue);
     color: var(--light);
     border: none;
     font-size: 1rem;
     padding: 0.4rem;
+    text-align: center;
 }
 
 .blue-button-big {
-    background-color: #0d2481;
+    background-color: var(--light-blue);
     color: var(--light);
     border: none;
     font-size: 1rem;
+    text-align: center;
     padding: 0.4rem;
 }
 
 .blue-big-b {
-    background-color: #0d2481;
+    text-align: center;
+    background-color: var(--light-blue);
     color: var(--light);
     border: none;
     font-size: 1rem;
@@ -120,20 +136,21 @@ footer {
 
 /* #UTILITY */
  
-
+.jumbo-img{
+    height: 450px
+}
 
 /*  debug for main */
 .top-main {
-    height: 700px;
-    max-width: 70%;
     background-color: var(--main-secondary);
     margin: auto;
-    
+    height: 550px;
 }
 
 .container-inside-top-main {
     max-width: 70%;
     margin: auto;
+    
 }
 
 .container-w100 {
@@ -166,7 +183,7 @@ footer {
 #enterprise {
     height: 250px;
     max-width: 70%;
-    margin-top: 10rem;
+    flex-direction: column;
     display: flex;
     margin: auto; 
     border: solid 1px var(--main-secondary);
@@ -182,16 +199,11 @@ footer {
     max-width: 70%;
     height: 500px;
     margin: auto;
-
 }
 
 /*  #debug for main */
 
-
 /* region header  */
-
-
-
 
 .row-4{
     border: solid 1px lightgrey;
@@ -202,4 +214,5 @@ footer {
     margin-top: 5rem;
 
 }
+
 
