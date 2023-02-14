@@ -58,6 +58,15 @@ footer {
 
 
 /* UTILITY*/
+.partner-img {
+    width: 100%;
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid var(--light)
+}
+
 .hr-card {
     width: 32%;
     background-color: var(--light);
@@ -66,8 +75,9 @@ footer {
 .card-big {
     width: 100%;
     margin: auto;
-    height: 500px;
+    height: 300px;
     border: 1px solid var(--light);
+    margin-top: 10rem;
 }
 
 .card {
@@ -75,15 +85,21 @@ footer {
     width: 30%;
     height: 510px;
     border: 1px solid var(--light);
+    min-height: 900px;
 }
 
 .card-container {
     flex-flow: wrap;
     justify-content: space-between;
+
 }
 
 .display-inline {
     display: inline;
+}
+
+.font-big {
+    font-size: 2rem;
 }
 
 .justify-footer {
@@ -98,8 +114,12 @@ footer {
     margin-top: 20rem;
 }
 
-.input {
-    margin-left: 9rem;
+.margin-t15 {
+    margin-top: 15rem;
+}
+
+.margin-t10 {
+    margin-top: 10rem;
 }
 
 .justify-content {
@@ -124,6 +144,18 @@ footer {
     color: white;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-100w{
+    width: 100%;
+}
+.container-card-business {
+    width: 33%;
+
+}
 
 .height {
     height: 500px;
@@ -133,9 +165,7 @@ footer {
     padding: 1rem;
 }
 
-.row-4 {
-    width: calc(3 x 90%);
-}
+
 
 .blue-button {
     background-color: var(--light-blue);
@@ -162,10 +192,31 @@ footer {
     border: none;
     font-size: 1rem;
     padding: 0.4rem;
-    width: 14rem;
+
+}
+
+.button-high-blue {
+    text-align: center;
+    background-color: var(--light-blue);
+    color: var(--light);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.button-white {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    font-size: 1rem;
+    padding: 0.4rem;
+    size: 3rem;
+
 }
 
 /* #UTILITY */
+
 
 .jumbo-img {
     height: 450px
@@ -185,7 +236,7 @@ footer {
 }
 
 .container-inside-top-main {
-    max-width: 70%;
+    max-width: 65%;
     margin: auto;
     max-width: 1152px;
 
@@ -202,7 +253,11 @@ footer {
     margin: auto;
     width: 65%;
 }
-
+.container-operation{
+    max-width: 65%;
+   
+    margin: auto;
+}
 
 .container {
     max-width: 70%;
@@ -211,6 +266,11 @@ footer {
     padding-top: 15rem;
     margin: auto;
 }
+.container-company {
+    max-width: 100%;
+    margin: auto;
+}
+
 
 #enterprise {
     height: 250px;
