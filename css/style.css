@@ -124,6 +124,10 @@ footer {
     min-height: 550px;
 }
 
+.margin-tb5 {
+    margin: 3rem 0;
+}
+
 .margin-card {
     margin: 0 2rem;
     margin-bottom: 2rem;
@@ -158,12 +162,20 @@ footer {
     margin-top: 10rem;
 }
 
+.margin-t5 {
+    margin-top: 5rem;
+}
+
 .margin-tb2 {
     margin: 2rem 0;
 }
 
 .margin-b5 {
     margin-bottom: 5rem;
+}
+
+.margin-b10 {
+    margin-bottom: 10rem;
 }
 
 .padding {
@@ -259,10 +271,11 @@ footer {
     text-align: center;
     background-color: white;
     color: black;
-    border: solid 1px black;
+    border: none;
     font-size: 1rem;
     padding: 0.4rem;
     size: 3rem;
+
 }
 
 /* #button */
@@ -280,7 +293,7 @@ footer {
     max-width: 65%;
     margin: auto;
     max-width: 1152px;
-    container-footer
+
 }
 
 .container-small {
@@ -314,7 +327,6 @@ footer {
     height: 300px;
 }
 
-
 .column-explain {
     flex-flow: column nowrap;
     gap: 2.5rem;
@@ -347,7 +359,6 @@ footer {
 .img-team {
     width: 50%;
     filter: invert(1);
-
 }
 
 /* #container */
@@ -360,7 +371,6 @@ footer {
 .hr-footer {
     width: 15%;
     background-color: var(--light);
-
 }
 
 .team {
@@ -383,12 +393,9 @@ footer {
     box-shadow: 0 0 0 10px rgba(159, 201, 159, 0.849) inset;
 }
 
-
-
 .asu {
     background-color: var(--bordeau);
 }
-
 
 .uof {
     background-color: var(--main-primary);
@@ -397,10 +404,6 @@ footer {
 .topps {
     background-color: var(--light-red);
 }
-
-
-
-
 
 .wbr {
     background-color: var(--dark-red);
