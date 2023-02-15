@@ -19,6 +19,7 @@
     --yellow: #ffd830;
 }
 
+
 h1 {
     font-size: 3.5rem;
 }
@@ -49,10 +50,17 @@ footer {
     border: solid 1px var(--main-secondary);
 }
 
+/* IMG */
+.jumbo-img {
+    height: 450px
+}
+
+/* #img */
+
 .top-main {
     background-color: var(--main-secondary);
     margin: auto;
-    height: 550px;
+    height: 600px;
 }
 
 .row-4 {
@@ -112,10 +120,16 @@ footer {
 .border-bottom {
     border-bottom: 1px solid var(--light)
 }
-
+.company {
+    margin-top: 10rem;
+}
 .hr-card {
     width: 32%;
     background-color: var(--light);
+}
+
+.gap {
+    gap: 2rem;
 }
 
 .card-big {
@@ -131,7 +145,12 @@ footer {
     width: 30%;
     height: 510px;
     border: 1px solid var(--light);
-    min-height: 900px;
+    min-height: 550px;
+}
+
+.margin-card {
+    margin: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-container {
@@ -140,13 +159,16 @@ footer {
 }
 
 .font-big {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .flex {
     display: flex;
 }
 
+.d-evenly{
+    justify-content: space-evenly;
+}
 .margin-t20 {
     margin-top: 20rem;
 }
@@ -158,6 +180,19 @@ footer {
 .margin-t10 {
     margin-top: 10rem;
 }
+
+.margin-tb2 {
+    margin: 2rem 0;
+}
+
+.margin-b10 {
+    margin-bottom: 5rem;
+}
+
+.padding {
+    padding: 1rem 0;
+}
+{}
 
 .column-explain {
     flex-flow: column nowrap;
@@ -185,6 +220,12 @@ footer {
     padding: 1rem;
 }
 
+.padding-10{
+    padding: 10rem 0;
+}
+.space-arownd{
+    justify-content: space-between;
+}
 /* #UTILITY */
 /* button */
 .blue-button {
@@ -193,6 +234,10 @@ footer {
     border: none;
     font-size: 1rem;
     padding: 0.4rem;
+    text-align: center;
+}
+
+.text-align {
     text-align: center;
 }
 
@@ -235,11 +280,6 @@ footer {
 
 /* #button */
 
-/* IMG */
-.jumbo-img {
-    height: 450px
-}
-/* #img */
 
 /*   container  */
 
@@ -252,7 +292,7 @@ footer {
 .container-top-main {
     max-width: 65%;
     margin: auto;
-    max-width: 1152px;
+    max-width: 1152px;container-footer
 }
 
 .container-small {
@@ -285,8 +325,23 @@ footer {
     background-color: var(--main-secondary);
     height: 300px;
 }
-/* #container */
 
-.company{
-    margin-top: 10rem;
+
+.container-footer{
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+}
+/* #container */
+.color-title{
+    color: var(--bordeau);
+}
+
+.question-row{
+    display: flex;
+    justify-content: space-between;
+}
+.hr-footer{
+width: 15%;
+background-color: var(--light);
 }
