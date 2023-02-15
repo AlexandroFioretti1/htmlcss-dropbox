@@ -31,6 +31,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--dark) !important;
 }
 
 footer {
@@ -121,7 +122,7 @@ footer {
     width: 30%;
     height: 510px;
     border: 1px solid var(--light);
-    min-height: 550px;
+    min-height: 68rem;
 }
 
 .margin-tb5 {
@@ -169,6 +170,9 @@ footer {
 .margin-tb2 {
     margin: 2rem 0;
 }
+.margin-tb1{
+    margin: 1rem 0;
+}
 
 .margin-b5 {
     margin-bottom: 5rem;
@@ -185,6 +189,9 @@ footer {
 .padding-lr {
     padding: 0 1rem;
 
+}
+.margin-025{
+    margin-right: 0.25rem;
 }
 
 .li-margin {
@@ -225,6 +232,9 @@ footer {
     margin: 8rem 3rem;
 }
 
+.l-blu{
+    color: var(--light-blue);
+}
 /* #UTILITY */
 /* button */
 .blue-button {
@@ -247,6 +257,17 @@ footer {
     font-size: 1rem;
     text-align: center;
     padding: 0.4rem;
+}
+
+
+.button-style {
+    background-color: var(--light-blue);
+    color: var(--light);
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.4rem;
+    width: 180px;
 }
 
 .blue-big-b {
@@ -275,12 +296,9 @@ footer {
     font-size: 1rem;
     padding: 0.4rem;
     size: 3rem;
-
 }
 
 /* #button */
-
-
 /*   container  */
 
 .container-inside {
@@ -419,4 +437,10 @@ footer {
 
 .cc {
     background-color: var(--yellow);
+}
+
+
+.nav-hover:hover{
+    background-color: var(--light);
+    border-bottom: solid 3px rgba(128, 128, 128, 0.404)
 }
