@@ -26,6 +26,7 @@ h1 {
 
 ul {
     text-decoration: none;
+    list-style-type: none;
 }
 
 a {
@@ -66,6 +67,9 @@ footer {
 .row-4 {
     border: solid 1px lightgrey;
     margin: auto;
+}
+.color-title{
+    color: var(--bordeau);
 }
 
 .header-container {
@@ -192,11 +196,14 @@ footer {
 .padding {
     padding: 1rem 0;
 }
-{}
 
-.column-explain {
-    flex-flow: column nowrap;
-    gap: 2.5rem;
+.padding-lr{
+    padding: 0 1rem;
+    
+}
+
+.li-margin{
+    margin: 0.40rem 0;
 }
 
 .title {
@@ -327,21 +334,23 @@ footer {
 }
 
 
+.column-explain {
+    flex-flow: column nowrap;
+    gap: 2.5rem;
+}
+
 .container-footer{
     width: 80%;
     margin: auto;
     padding-top: 5rem;
 }
 /* #container */
-.color-title{
-    color: var(--bordeau);
-}
 
 .question-row{
     display: flex;
     justify-content: space-between;
 }
 .hr-footer{
-width: 15%;
-background-color: var(--light);
-}
+    width: 15%;
+    background-color: var(--light);
+    }
